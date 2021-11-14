@@ -46,7 +46,6 @@ function App() {
     let new_total = 0
     let new_order_text = ''
     for (let i = 0; i < new_cart.length; i++) {
-      console.log(new_cart[i])
       if (new_cart[i].price.sale_value) new_total += new_cart[i].amount * new_cart[i].price.sale_value
       else new_total += new_cart[i].amount * new_cart[i].price.value
 
