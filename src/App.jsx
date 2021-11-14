@@ -97,9 +97,7 @@ function App() {
       <Categories language={language} onClick={setSelectedCategory} />
 
 
-      {/* the cart component 
-        TODO: add free delivery hint
-      */}
+      {/* the cart component */}
       {showCart &&
         <Cart
           cart={cart}
@@ -117,8 +115,7 @@ function App() {
 
 
       {/* show the products
-        TODO: filter by category if category selected otherwise show the products with homepage: true attribute
-        TODO: add sale styling and logic
+        filter by selectedCategory if selected otherwise show the products with homepage: true attribute
       */}
       <ProductsContainer
         language={language}
