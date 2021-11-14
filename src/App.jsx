@@ -12,7 +12,8 @@ import Categories from './components/Categories'
 function App() {
 
   // some constants
-  const whatsapp_number = '4915751901895'
+  // TODO: put the real number
+  const whatsapp_number = '4915-----------'
   const min_value_free_delivery = 20
   const delivery_costs = 2
 
